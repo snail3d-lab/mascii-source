@@ -1,0 +1,34 @@
+name: Mascii
+options:
+  bundleIdPrefix: com.snail3d
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+  generateEmptyXIBs: false
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: "9V8U7PCW58"
+
+targets:
+  Mascii:
+    type: application
+    platform: iOS
+    sources:
+      - path: Mascii
+    settings:
+      base:
+        PRODUCT_NAME: Mascii
+        PRODUCT_BUNDLE_IDENTIFIER: com.snail3d.mascii
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Mascii
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIStatusBarHidden: YES
+        INFOPLIST_KEY_UIRequiresFullScreen: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Mascii reads your videos to render them as ASCII art, entirely on-device."
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

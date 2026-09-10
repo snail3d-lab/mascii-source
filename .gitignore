@@ -1,0 +1,12 @@
+# iOS build
+build/
+.DS_Store
+
+# Mascii desktop pipeline — generated / re-downloadable / large
+metropolis-ascii/metropolis_raw.mp4
+metropolis-ascii/out/
+metropolis-ascii/*.mp4
+metropolis-ascii/*.wav
+metropolis-ascii/concat*.txt
+metropolis-ascii/*.log
+metropolis-ascii/*.tmp.mp4
